@@ -1,0 +1,7 @@
+Jul 18 21:54:29 localhost kernel: [ 1854.024983] snmp fork is called 
+Jul 18 21:54:29 localhost kernel: [ 1854.025115] parent 
+Jul 18 21:54:29 localhost kernel: snmp fork is called 
+Jul 18 21:54:29 localhost kernel: parent 
+Jul 18 21:54:29 localhost kernel: [ 1854.026880] fork_snmp_app[4285]: segfault at 0 ip           (null) sp 00007fff062b1128 error 14 in fork_snmp_app[400000+3000]
+Jul 18 21:54:29 localhost kernel: fork_snmp_app[4285]: segfault at 0 ip           (null) sp 00007fff062b1128 error 14 in fork_snmp_app[400000+3000]
+

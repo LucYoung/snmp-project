@@ -1,0 +1,11 @@
+__dev_queue_xmit - transmit a buffer
+ *      @skb: buffer to transmit
+ *      @accel_priv: private data used for L2 forwarding offload
+ *
+ *      Queue a buffer for transmission to a network device. The caller must
+ *      have set the device and priority and built the buffer before calling
+ *      this function. The function can be called from an interrupt.
+ *
+ *      A negative errno code is returned on a failure. A success does not
+ *      guarantee the frame will be transmitted as it may be dropped due
+ *      to congestion or traffic shaping.
